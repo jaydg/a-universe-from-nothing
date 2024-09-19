@@ -106,7 +106,7 @@ above and have already logged in (e.g. ``ssh rocky@<ip>``).
    cd
 
    # Clone Kayobe.
-   git clone https://opendev.org/openstack/kayobe.git -b stable/2023.1
+   git clone https://opendev.org/openstack/kayobe.git -b stable/2024.1
    cd kayobe
 
    # Clone the Tenks repository.
@@ -115,7 +115,7 @@ above and have already logged in (e.g. ``ssh rocky@<ip>``).
    # Clone this Kayobe configuration.
    mkdir -p config/src
    cd config/src/
-   git clone https://github.com/stackhpc/a-universe-from-nothing.git kayobe-config -b stable/2023.1
+   git clone https://github.com/jaydg/a-universe-from-nothing.git kayobe-config -b stable/2024.1
 
    # Configure host networking (bridge, routes & firewall)
    ./kayobe-config/configure-local-networking.sh
